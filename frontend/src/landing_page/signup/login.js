@@ -22,7 +22,7 @@ function Login() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:3002/login", {
+      const response = await fetch("https://zerodha-clone-xli5.onrender.com/login", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -34,7 +34,7 @@ function Login() {
         setIsError(false);
         setMessage("Login successful! Redirecting to Dashboard...");
         setTimeout(() => {
-          window.location.href = "http://localhost:3001";
+          window.location.href = "https://zerodha-dashboard-hp2t.onrender.com";
         }, 1500);
       } else {
         setIsError(true);

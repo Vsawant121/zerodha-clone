@@ -24,7 +24,7 @@ function Signup() {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch("http://localhost:3002/signup", {
+      const response = await fetch("https://zerodha-clone-xli5.onrender.com/signup", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

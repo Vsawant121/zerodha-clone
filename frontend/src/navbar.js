@@ -40,6 +40,11 @@ function Navbar() {
               <li className="nav-item">
                 <Link className="nav-link active" to="/support">Support</Link>
               </li>
+              <li className="nav-item">
+  <a className="nav-link active" href="https://zerodha-dashboard-hp2t.onrender.com">
+    Dashboard
+  </a>
+</li>
             </ul>
           </div>
         </div>
